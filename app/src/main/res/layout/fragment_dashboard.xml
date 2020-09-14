@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back_new_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Medical Institutions"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/tab_layout_back"
+        app:tabBackground="@drawable/tab_layout_selector"
+        app:tabGravity="fill"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="auto"
+        app:tabRippleColor="@null"
+        app:tabSelectedTextColor="@color/colorPrimaryDark"
+        app:tabTextAppearance="@style/TabTextAppearance">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospitals" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medical Colleges" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_below="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        >
+
+    </androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/liner_layout_waste"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="@drawable/heading_back"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="Date "
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+
+                android:padding="6dp"
+                android:text="Title"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView_waste5"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+
+                android:padding="6dp"
+                android:text="Title"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_notification"
+            android:layout_width="640dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/liner_layout_waste"
+            tools:listitem="@layout/item_notification" />
+
+        <ProgressBar
+            android:id="@+id/progress_helpline"
+            android:layout_width="155dp"
+            android:layout_height="125dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="294dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

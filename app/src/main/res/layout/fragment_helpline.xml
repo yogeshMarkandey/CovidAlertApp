@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/liner_layout_waste"
+                android:layout_width="match_parent"
+                android:background="@drawable/heading_back"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="212dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:text="State Name"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="HelpLine"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="24dp" />
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_helpline"
+                android:layout_width="640dp"
+                android:layout_marginTop="6dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/liner_layout_waste"
+                tools:listitem="@layout/item_helpiline" />
+
+        <ProgressBar
+            android:id="@+id/progress_helpline"
+            android:layout_width="155dp"
+            android:layout_height="125dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="294dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

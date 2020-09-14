@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CovidAlertApp</string>
+    <!--<string name="fdbf">implementation \'itext:itext:4.2.1'</string>-->
+
+    <string-array
+        name="states">
+        <item>Select State</item>
+        <item>Haryana</item>
+        <item>Maharashtra</item>
+        <item>Karnataka</item>
+        <item>Bihar</item>
+        <item>Kerala</item>
+        <item>Himachal Pradesh</item>
+        <item>Tamil Nadu</item>
+        <item>Jammu and Kashmir</item>
+        <item>Madhya Pradesh</item>
+        <item>Karnataka</item>
+        <item>Telangana</item>
+        <item>Odisha</item>
+        <item>Delhi</item>
+        <item>Telangana</item>
+        <item>West Bengal</item>
+    </string-array>
+
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>male</item>
+        <item>female</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>Select Age</item>
+        <item>0-9</item>
+        <item>10-19</item>
+        <item>20-29</item>
+        <item>30-39</item>
+        <item>40-49</item>
+        <item>50-59</item>
+        <item>60-69</item>
+        <item>70+</item>
+
+    </string-array>
+</resources>

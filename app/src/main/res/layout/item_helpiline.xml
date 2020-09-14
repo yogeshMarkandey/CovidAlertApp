@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="12dp"
+    android:background="@drawable/back_item"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_name_of_state"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="6dp"
+            android:text="Name of state"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/text_view_helpline"
+            android:layout_width="167dp"
+            android:textAlignment="center"
+
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="HelpLine"
+            android:textSize="18dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
