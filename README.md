@@ -8,8 +8,11 @@ Overview :-
 What I have learned from this project ?
 
 > Integration and implemntation of Retrofit( Jetpack Architecture components).
+
 > Utilization of JSON form APIs.
+
 > Implementation of SQLite Database using Room Persistance Library (Jetpack Architecture components).
+
 > Bottom Navigation View, Fragment Transaction and many more.
             
             
